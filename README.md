@@ -20,7 +20,7 @@ pip install asm_py
 Alternatively, clone this repository and install manually:
 
 ```bash
-git clone https://github.com/yourusername/asm_py.git
+git clone https://github.com/atharvapatil1210/asm_py.git
 cd asm_py
 python setup.py install
 ```
