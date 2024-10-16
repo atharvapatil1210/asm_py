@@ -1,6 +1,6 @@
-# asm_py
+# asm-chill-py
 
-`asm_py` is a Python library that simulates basic CPU operations and provides a simple framework for running assembly-like instructions. It is ideal for educational purposes, allowing users to interact with CPU registers, perform memory operations, and execute basic assembly commands in Python.
+`asm_chill_py` is a Python library that simulates basic CPU operations and provides a simple framework for running assembly-like instructions. It is ideal for educational purposes, allowing users to interact with CPU registers, perform memory operations, and execute basic assembly commands in Python.
 
 ## Features
 
@@ -11,26 +11,26 @@
 
 ## Installation
 
-You can install the `asm_py` library directly from PyPI:
+You can install the `asm_chill_py` library directly from PyPI:
 
 ```bash
-pip install asm_py
+pip install asm_chill_py
 ```
 
 Alternatively, clone this repository and install manually:
 
 ```bash
-git clone https://github.com/atharvapatil1210/asm_py.git
-cd asm_py
+git clone https://github.com/atharvapatil1210/asm_chill_py.git
+cd asm_chill_py
 python setup.py install
 ```
 
 ## Usage
 
-Here's a basic example of how to use `asm_py` to simulate CPU operations:
+Here's a basic example of how to use `asm_chill_py` to simulate CPU operations:
 
 ```python
-from asm_py.core import CPU
+from asm_chill_py.core import CPU
 
 def add_registers():
     cpu = CPU()
@@ -55,10 +55,10 @@ DX: 0
 
 ### Running Assembly Code
 
-`asm_py` also allows you to run assembly code using NASM and the system linker. Here's an example:
+`asm_chill_py` also allows you to run assembly code using NASM and the system linker. Here's an example:
 
 ```python
-from asm_py.core import run_assembly
+from asm_chill_py.core import run_assembly
 
 asm_code = """
 section .text
@@ -119,14 +119,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Happy coding!
 ```
 
-### What this README includes:
-1. **Introduction and Overview**: A quick summary of the library's purpose.
-2. **Features**: Bullet points outlining what the library offers.
-3. **Installation Instructions**: Explains how to install the library either via PyPI or manually.
-4. **Usage Example**: A code snippet demonstrating basic usage.
-5. **API Reference**: Describes key classes and methods in the library.
-6. **Testing Instructions**: Explains how to run the tests.
-7. **Contributing**: Guidelines for contributing to the project.
-8. **License**: Information about the license.
+### Key Changes Made:
+- Changed the library name from `asm_py` to `asm_chill_py` throughout the document.
+- Updated installation commands and usage examples accordingly.
 
-You can modify the placeholders such as the GitHub URL or author information according to your specific project. Let me know if you need more details or adjustments!
+Feel free to modify any additional information, such as URLs or personal details, as needed! Let me know if you have any more requests or changes!
