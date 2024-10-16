@@ -1,4 +1,3 @@
-```markdown
 # asm_py
 
 `asm_py` is a Python library that simulates basic CPU operations and provides a simple framework for running assembly-like instructions. It is ideal for educational purposes, allowing users to interact with CPU registers, perform memory operations, and execute basic assembly commands in Python.
