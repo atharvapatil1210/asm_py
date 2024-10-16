@@ -1,5 +1,5 @@
 # we call ADD instruction
-from asm_py.core import CPU
+from asm-chill-py.core import CPU
 
 def add_registers():
     cpu = CPU()
