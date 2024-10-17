@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='asm_py',
+    name='asm-chill-py',
     version='0.1.0',
     author='atharva bodade',
     author_email='atharvabodade@gmail.com',
