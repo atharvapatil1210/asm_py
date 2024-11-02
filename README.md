@@ -21,7 +21,7 @@ Alternatively, clone this repository and install manually:
 
 ```bash
 git clone https://github.com/atharvapatil1210/asm_py.git
-cd asm_chill_py
+cd asm_py
 python setup.py install
 ```
 
@@ -111,6 +111,11 @@ Contributions are welcome! Please feel free to submit a pull request or report i
 5. Open a pull request.
 
 ## License
+
+    Simulate basic CPU registers (ax, bx, cx, dx) with operations like MOV, ADD, and SUB.
+    Manipulate simulated memory.
+    Run assembly code using NASM and system linkers.
+    Use helper functions to work with assembly code.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
