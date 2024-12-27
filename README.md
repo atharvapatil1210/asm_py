@@ -123,9 +123,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Happy coding!
 ```
-
-### Key Changes Made:
-- Changed the library name from `asm_py` to `asm_chill_py` throughout the document.
-- Updated installation commands and usage examples accordingly.
-
-Feel free to modify any additional information, such as URLs or personal details, as needed! Let me know if you have any more requests or changes!
